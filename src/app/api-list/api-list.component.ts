@@ -18,9 +18,10 @@ export class ApiListComponent implements OnInit  {
   ngOnInit(){
     this.apiService.getApiResponse().subscribe(
       (data: ApiResponse[]) => {
-        console.log(data);
         this.apis = data; 
        }
     );
   }
+
+  
 }

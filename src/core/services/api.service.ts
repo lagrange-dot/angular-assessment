@@ -9,7 +9,7 @@ export class ApiService {
 
   constructor(private http: HttpClient) {}
 
-  configUrl = 'https://api.publicapis.org/entries?category=animals';
+  configUrl = 'https://api.publicapis.org/entries?category=Government';
 
   getApiResponse(): Observable<ApiResponse[]> {
     return this.http.get<ApiResponse[]>(this.configUrl).pipe(
