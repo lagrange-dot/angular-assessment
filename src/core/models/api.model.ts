@@ -1,5 +1,5 @@
 export interface ApiResponse {
-  title: string;
-  description: string;
-  category: string;
+  API: string;
+  Description: string;
+  Category: string;
 }
